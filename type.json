@@ -1,11 +1,11 @@
 {
-  "version": 1,
+  "version": 2,
   "data": [
     {
       "id": "YOUTUBE_PREMIUM",
       "name": "YouTube Premium",
       "color": "#FF0000",
-      "icon": "",
+      "icon": "youtube-premium",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -13,7 +13,7 @@
       "id": "NETFLIX",
       "name": "Netflix",
       "color": "#E50914",
-      "icon": "",
+      "icon": "netflix",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -21,7 +21,7 @@
       "id": "CHATGPT_PLUS",
       "name": "ChatGPT Plus",
       "color": "#00A67E",
-      "icon": "",
+      "icon": "chatgpt-plus",
       "category": "AI",
       "is_popular": true
     },
@@ -29,7 +29,7 @@
       "id": "SPOTIFY",
       "name": "Spotify",
       "color": "#1DB954",
-      "icon": "",
+      "icon": "spotify",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -37,7 +37,7 @@
       "id": "APPLE_MUSIC",
       "name": "Apple Music",
       "color": "#FF4E6B",
-      "icon": "",
+      "icon": "apple-music",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -45,7 +45,7 @@
       "id": "GOOGLE_ONE",
       "name": "Google One",
       "color": "#4285F4",
-      "icon": "",
+      "icon": "google-one",
       "category": "CLOUD",
       "is_popular": true
     },
@@ -53,7 +53,7 @@
       "id": "ICLOUD_PLUS",
       "name": "iCloud+",
       "color": "#4084F4",
-      "icon": "",
+      "icon": "icloud-plus",
       "category": "CLOUD",
       "is_popular": true
     },
@@ -61,7 +61,7 @@
       "id": "MICROSOFT_365",
       "name": "Microsoft 365",
       "color": "#F25022",
-      "icon": "",
+      "icon": "microsoft-365",
       "category": "PRODUCTIVITY",
       "is_popular": true
     },
@@ -69,7 +69,7 @@
       "id": "AMAZON_PRIME",
       "name": "Amazon Prime",
       "color": "#00A8E1",
-      "icon": "",
+      "icon": "amazon-prime",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -77,7 +77,7 @@
       "id": "DISNEY_PLUS",
       "name": "Disney+",
       "color": "#01147C",
-      "icon": "",
+      "icon": "disney-plus",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -85,7 +85,7 @@
       "id": "ADOBE_CREATIVE_CLOUD",
       "name": "Adobe Creative Cloud",
       "color": "#FF0000",
-      "icon": "",
+      "icon": "adobe-creative-cloud",
       "category": "PRODUCTIVITY",
       "is_popular": true
     },
@@ -93,7 +93,7 @@
       "id": "APPLE_TV_PLUS",
       "name": "Apple TV+",
       "color": "#000000",
-      "icon": "",
+      "icon": "apple-tv-plus",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -101,7 +101,7 @@
       "id": "AT_AND_T",
       "name": "AT&T",
       "color": "#00A8E0",
-      "icon": "",
+      "icon": "at-and-t",
       "category": "TELECOM",
       "is_popular": true
     },
@@ -109,7 +109,7 @@
       "id": "AUDIBLE",
       "name": "Audible",
       "color": "#FF9900",
-      "icon": "",
+      "icon": "audible",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -117,7 +117,7 @@
       "id": "AWS",
       "name": "AWS",
       "color": "#FF9900",
-      "icon": "",
+      "icon": "aws",
       "category": "CLOUD",
       "is_popular": true
     },
@@ -125,7 +125,7 @@
       "id": "BUMBLE_PREMIUM",
       "name": "Bumble Premium",
       "color": "#FFC629",
-      "icon": "",
+      "icon": "bumble-premium",
       "category": "SOCIAL_MEDIA",
       "is_popular": true
     },
@@ -133,7 +133,7 @@
       "id": "CANVA_PRO",
       "name": "Canva Pro",
       "color": "#07B9CE",
-      "icon": "",
+      "icon": "canva-pro",
       "category": "PRODUCTIVITY",
       "is_popular": true
     },
@@ -141,7 +141,7 @@
       "id": "DISCORD_NITRO",
       "name": "Discord Nitro",
       "color": "#5865F2",
-      "icon": "",
+      "icon": "discord-nitro",
       "category": "SOCIAL_MEDIA",
       "is_popular": true
     },
@@ -149,7 +149,7 @@
       "id": "DUOLINGO",
       "name": "Duolingo",
       "color": "#58CC02",
-      "icon": "",
+      "icon": "duolingo",
       "category": "EDUCATION",
       "is_popular": true
     },
@@ -157,7 +157,7 @@
       "id": "EA_PLAY",
       "name": "EA Play",
       "color": "#FF4545",
-      "icon": "",
+      "icon": "ea-play",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -165,7 +165,7 @@
       "id": "ESPN_PLUS",
       "name": "ESPN+",
       "color": "#F9B300",
-      "icon": "",
+      "icon": "espn-plus",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -173,7 +173,7 @@
       "id": "FIGMA_PROFESSIONAL",
       "name": "Figma Professional",
       "color": "#F24E1E",
-      "icon": "",
+      "icon": "figma-professional",
       "category": "DEVELOPMENT",
       "is_popular": true
     },
@@ -181,7 +181,7 @@
       "id": "GRAMMARLY_PREMIUM",
       "name": "Grammarly Premium",
       "color": "#027E6F",
-      "icon": "",
+      "icon": "grammarly-premium",
       "category": "PRODUCTIVITY",
       "is_popular": true
     },
@@ -189,7 +189,7 @@
       "id": "HBO_MAX",
       "name": "HBO Max",
       "color": "#9E86FF",
-      "icon": "",
+      "icon": "hbo-max",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -197,7 +197,7 @@
       "id": "HULU",
       "name": "Hulu",
       "color": "#1CE783",
-      "icon": "",
+      "icon": "hulu",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -205,7 +205,7 @@
       "id": "MYFITNESSPAL",
       "name": "MyFitnessPal",
       "color": "#00B8AD",
-      "icon": "",
+      "icon": "myfitnesspal",
       "category": "HEALTH",
       "is_popular": true
     },
@@ -213,7 +213,7 @@
       "id": "NINTENDO_SWITCH_ONLINE",
       "name": "Nintendo Switch Online",
       "color": "#E70009",
-      "icon": "",
+      "icon": "nintendo-switch-online",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -221,7 +221,7 @@
       "id": "NORDVPN",
       "name": "NordVPN",
       "color": "#23A3DC",
-      "icon": "",
+      "icon": "nordvpn",
       "category": "UTILITIES",
       "is_popular": true
     },
@@ -229,7 +229,7 @@
       "id": "NOTION_PLUS",
       "name": "Notion Plus",
       "color": "#000000",
-      "icon": "",
+      "icon": "notion-plus",
       "category": "PRODUCTIVITY",
       "is_popular": true
     },
@@ -237,7 +237,7 @@
       "id": "NYT",
       "name": "The New York Times",
       "color": "#000000",
-      "icon": "",
+      "icon": "nyt",
       "category": "NEWS",
       "is_popular": true
     },
@@ -245,7 +245,7 @@
       "id": "PARAMOUNT_PLUS",
       "name": "Paramount+",
       "color": "#0064FF",
-      "icon": "",
+      "icon": "paramount-plus",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -253,7 +253,7 @@
       "id": "PEACOCK",
       "name": "Peacock",
       "color": "#57A845",
-      "icon": "",
+      "icon": "peacock",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -261,7 +261,7 @@
       "id": "PLAYSTATION_PLUS",
       "name": "PlayStation Plus",
       "color": "#0070D1",
-      "icon": "",
+      "icon": "playstation-plus",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -269,7 +269,7 @@
       "id": "QUICKBOOKS",
       "name": "QuickBooks",
       "color": "#367DB6",
-      "icon": "",
+      "icon": "quickbooks",
       "category": "FINANCE",
       "is_popular": true
     },
@@ -277,7 +277,7 @@
       "id": "SIRIUSXM",
       "name": "SiriusXM",
       "color": "#0000EB",
-      "icon": "",
+      "icon": "siriusxm",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -285,7 +285,7 @@
       "id": "T_MOBILE",
       "name": "T-Mobile",
       "color": "#E2007A",
-      "icon": "",
+      "icon": "t-mobile",
       "category": "TELECOM",
       "is_popular": true
     },
@@ -293,7 +293,7 @@
       "id": "TINDER_GOLD",
       "name": "Tinder Gold",
       "color": "#FD2B7B",
-      "icon": "",
+      "icon": "tinder-gold",
       "category": "SOCIAL_MEDIA",
       "is_popular": true
     },
@@ -301,7 +301,7 @@
       "id": "TWITCH",
       "name": "Twitch",
       "color": "#9146FF",
-      "icon": "",
+      "icon": "twitch",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -309,7 +309,7 @@
       "id": "VERIZON",
       "name": "Verizon",
       "color": "#CF0000",
-      "icon": "",
+      "icon": "verizon",
       "category": "TELECOM",
       "is_popular": true
     },
@@ -317,7 +317,7 @@
       "id": "XBOX_GAME_PASS",
       "name": "Xbox Game Pass",
       "color": "#107C10",
-      "icon": "",
+      "icon": "xbox-game-pass",
       "category": "ENTERTAINMENT",
       "is_popular": true
     },
@@ -325,7 +325,7 @@
       "id": "ZOOM",
       "name": "Zoom",
       "color": "#2D8CFF",
-      "icon": "",
+      "icon": "zoom",
       "category": "PRODUCTIVITY",
       "is_popular": true
     },
@@ -333,7 +333,7 @@
       "id": "1PASSWORD",
       "name": "1Password",
       "color": "#2D8BE0",
-      "icon": "",
+      "icon": "1password",
       "category": "UTILITIES",
       "is_popular": false
     },
@@ -341,7 +341,7 @@
       "id": "BLOOMBERG",
       "name": "Bloomberg",
       "color": "#222222",
-      "icon": "",
+      "icon": "bloomberg",
       "category": "FINANCE",
       "is_popular": false
     },
@@ -349,7 +349,7 @@
       "id": "CALM",
       "name": "Calm",
       "color": "#6E5EBC",
-      "icon": "",
+      "icon": "calm",
       "category": "HEALTH",
       "is_popular": false
     },
@@ -357,7 +357,7 @@
       "id": "COURSERA",
       "name": "Coursera",
       "color": "#2A73CC",
-      "icon": "",
+      "icon": "coursera",
       "category": "EDUCATION",
       "is_popular": false
     },
@@ -365,7 +365,7 @@
       "id": "CRUNCHYROLL",
       "name": "Crunchyroll",
       "color": "#F47521",
-      "icon": "",
+      "icon": "crunchyroll",
       "category": "ENTERTAINMENT",
       "is_popular": false
     },
@@ -373,7 +373,7 @@
       "id": "DIGITALOCEAN",
       "name": "DigitalOcean",
       "color": "#0080FF",
-      "icon": "",
+      "icon": "digitalocean",
       "category": "CLOUD",
       "is_popular": false
     },
@@ -381,7 +381,7 @@
       "id": "DROPBOX",
       "name": "Dropbox",
       "color": "#0061FE",
-      "icon": "",
+      "icon": "dropbox",
       "category": "CLOUD",
       "is_popular": false
     },
@@ -389,7 +389,7 @@
       "id": "EVERNOTE",
       "name": "Evernote",
       "color": "#1FB655",
-      "icon": "",
+      "icon": "evernote",
       "category": "PRODUCTIVITY",
       "is_popular": false
     },
@@ -397,7 +397,7 @@
       "id": "EXPRESSVPN",
       "name": "ExpressVPN",
       "color": "#FA735F",
-      "icon": "",
+      "icon": "expressvpn",
       "category": "UTILITIES",
       "is_popular": false
     },
@@ -405,7 +405,7 @@
       "id": "FITBIT_PREMIUM",
       "name": "Fitbit Premium",
       "color": "#4CC2C4",
-      "icon": "",
+      "icon": "fitbit-premium",
       "category": "HEALTH",
       "is_popular": false
     },
@@ -413,7 +413,7 @@
       "id": "GITHUB_COPILOT",
       "name": "GitHub Copilot",
       "color": "#24292E",
-      "icon": "",
+      "icon": "github-copilot",
       "category": "AI",
       "is_popular": false
     },
@@ -421,7 +421,7 @@
       "id": "HEADSPACE",
       "name": "Headspace",
       "color": "#FF7F57",
-      "icon": "",
+      "icon": "headspace",
       "category": "HEALTH",
       "is_popular": false
     },
@@ -429,7 +429,7 @@
       "id": "JETBRAINS",
       "name": "JetBrains",
       "color": "#000000",
-      "icon": "",
+      "icon": "jetbrains",
       "category": "DEVELOPMENT",
       "is_popular": false
     },
@@ -437,7 +437,7 @@
       "id": "LASTPASS",
       "name": "LastPass",
       "color": "#D32D27",
-      "icon": "",
+      "icon": "lastpass",
       "category": "UTILITIES",
       "is_popular": false
     },
@@ -445,7 +445,7 @@
       "id": "LINKEDIN_LEARNING",
       "name": "LinkedIn Learning",
       "color": "#0077B5",
-      "icon": "",
+      "icon": "linkedin-learning",
       "category": "EDUCATION",
       "is_popular": false
     },
@@ -453,7 +453,7 @@
       "id": "MASTERCLASS",
       "name": "MasterClass",
       "color": "#4A4A4A",
-      "icon": "",
+      "icon": "masterclass",
       "category": "EDUCATION",
       "is_popular": false
     },
@@ -461,7 +461,7 @@
       "id": "MEDIUM_MEMBER",
       "name": "Medium Member",
       "color": "#000000",
-      "icon": "",
+      "icon": "medium-member",
       "category": "NEWS",
       "is_popular": false
     },
@@ -469,7 +469,7 @@
       "id": "SKILLSHARE",
       "name": "Skillshare",
       "color": "#121212",
-      "icon": "",
+      "icon": "skillshare",
       "category": "EDUCATION",
       "is_popular": false
     },
@@ -477,7 +477,7 @@
       "id": "STARLINK",
       "name": "Starlink",
       "color": "#000000",
-      "icon": "",
+      "icon": "starlink",
       "category": "TELECOM",
       "is_popular": false
     },
@@ -485,7 +485,7 @@
       "id": "STRAVA",
       "name": "Strava",
       "color": "#FC4C02",
-      "icon": "",
+      "icon": "strava",
       "category": "HEALTH",
       "is_popular": false
     },
@@ -493,7 +493,7 @@
       "id": "TRADINGVIEW",
       "name": "TradingView",
       "color": "#2962FF",
-      "icon": "",
+      "icon": "tradingview",
       "category": "FINANCE",
       "is_popular": false
     },
@@ -501,7 +501,7 @@
       "id": "UDEMY",
       "name": "Udemy",
       "color": "#A435F0",
-      "icon": "",
+      "icon": "udemy",
       "category": "EDUCATION",
       "is_popular": false
     },
@@ -509,7 +509,7 @@
       "id": "VERCEL",
       "name": "Vercel",
       "color": "#000000",
-      "icon": "",
+      "icon": "vercel",
       "category": "DEVELOPMENT",
       "is_popular": false
     },
@@ -517,7 +517,7 @@
       "id": "WSJ",
       "name": "The Wall Street Journal",
       "color": "#000000",
-      "icon": "",
+      "icon": "wsj",
       "category": "NEWS",
       "is_popular": false
     },
@@ -525,7 +525,7 @@
       "id": "YNAB",
       "name": "You Need A Budget",
       "color": "#00829A",
-      "icon": "",
+      "icon": "ynab",
       "category": "FINANCE",
       "is_popular": false
     }
