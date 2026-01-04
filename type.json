@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "data": [
     {
       "id": "YOUTUBE_PREMIUM",
@@ -15,6 +15,14 @@
       "color": "#E50914",
       "icon": "netflix",
       "category": "ENTERTAINMENT",
+      "is_popular": true
+    },
+    {
+      "id": "GEMINI",
+      "name": "Google Gemini",
+      "color": "#000000",
+      "icon": "gemini",
+      "category": "AI",
       "is_popular": true
     },
     {
@@ -111,14 +119,6 @@
       "color": "#FF9900",
       "icon": "audible",
       "category": "ENTERTAINMENT",
-      "is_popular": true
-    },
-    {
-      "id": "AWS",
-      "name": "AWS",
-      "color": "#FF9900",
-      "icon": "aws",
-      "category": "CLOUD",
       "is_popular": true
     },
     {
@@ -242,22 +242,6 @@
       "is_popular": true
     },
     {
-      "id": "PARAMOUNT_PLUS",
-      "name": "Paramount+",
-      "color": "#0064FF",
-      "icon": "paramount-plus",
-      "category": "ENTERTAINMENT",
-      "is_popular": true
-    },
-    {
-      "id": "PEACOCK",
-      "name": "Peacock",
-      "color": "#57A845",
-      "icon": "peacock",
-      "category": "ENTERTAINMENT",
-      "is_popular": true
-    },
-    {
       "id": "PLAYSTATION_PLUS",
       "name": "PlayStation Plus",
       "color": "#0070D1",
@@ -367,14 +351,6 @@
       "color": "#F47521",
       "icon": "crunchyroll",
       "category": "ENTERTAINMENT",
-      "is_popular": false
-    },
-    {
-      "id": "DIGITALOCEAN",
-      "name": "DigitalOcean",
-      "color": "#0080FF",
-      "icon": "digitalocean",
-      "category": "CLOUD",
       "is_popular": false
     },
     {
