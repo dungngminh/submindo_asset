@@ -2,4 +2,5 @@
 
 This is the asset for Submindo project:
 - public/
-- type.jsonw
+- type.json
+- docs/ # All the docs of Submindo
