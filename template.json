@@ -232,6 +232,128 @@
       }
     },
     {
+      "id": "CLAUDE_PRO",
+      "type_id": "CLAUDE",
+      "plan_name": "Pro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 20,
+        "EUR": 18.5,
+        "GBP": 15
+      }
+    },
+    {
+      "id": "CLAUDE_PRO_ANNUAL",
+      "type_id": "CLAUDE",
+      "plan_name": "Pro (Annual)",
+      "billing_cycle": "YEARLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 200,
+        "EUR": 190,
+        "GBP": 150
+      }
+    },
+    {
+      "id": "CLAUDE_MAX_5X",
+      "type_id": "CLAUDE",
+      "plan_name": "Max 5x",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 100,
+        "EUR": 91.5,
+        "GBP": 75
+      }
+    },
+    {
+      "id": "CLAUDE_MAX_20X",
+      "type_id": "CLAUDE",
+      "plan_name": "Max 20x",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 200,
+        "EUR": 183,
+        "GBP": 150
+      }
+    },
+    {
+      "id": "PERPLEXITY_PRO_MONTHLY",
+      "type_id": "PERPLEXITY",
+      "plan_name": "Pro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 20,
+        "EUR": 20,
+        "GBP": 20
+      }
+    },
+    {
+      "id": "PERPLEXITY_PRO_ANNUAL",
+      "type_id": "PERPLEXITY",
+      "plan_name": "Pro (Annual)",
+      "billing_cycle": "YEARLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 200,
+        "EUR": 200,
+        "GBP": 200
+      }
+    },
+    {
+      "id": "MIDJOURNEY_BASIC",
+      "type_id": "MIDJOURNEY",
+      "plan_name": "Basic",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 10
+      }
+    },
+    {
+      "id": "MIDJOURNEY_STANDARD",
+      "type_id": "MIDJOURNEY",
+      "plan_name": "Standard",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 30
+      }
+    },
+    {
+      "id": "MIDJOURNEY_PRO",
+      "type_id": "MIDJOURNEY",
+      "plan_name": "Pro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 60
+      }
+    },
+    {
+      "id": "MIDJOURNEY_MEGA",
+      "type_id": "MIDJOURNEY",
+      "plan_name": "Mega",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 120
+      }
+    },
+    {
+      "id": "GROK_SUPERGROK",
+      "type_id": "GROK",
+      "plan_name": "SuperGrok",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 30
+      }
+    },
+    {
       "id": "DISCORD_NITRO_BASIC",
       "type_id": "DISCORD_NITRO",
       "plan_name": "Nitro Basic",

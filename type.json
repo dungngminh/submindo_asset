@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "data": [
     {
       "id": "YOUTUBE_PREMIUM",
@@ -30,6 +30,22 @@
       "name": "ChatGPT Plus",
       "color": "#00A67E",
       "icon": "chatgpt-plus",
+      "category": "AI",
+      "is_popular": true
+    },
+    {
+      "id": "CLAUDE",
+      "name": "Claude",
+      "color": "#D97757",
+      "icon": "claude",
+      "category": "AI",
+      "is_popular": true
+    },
+    {
+      "id": "PERPLEXITY",
+      "name": "Perplexity Pro",
+      "color": "#1FB8CD",
+      "icon": "perplexity",
       "category": "AI",
       "is_popular": true
     },
@@ -390,6 +406,46 @@
       "name": "GitHub Copilot",
       "color": "#24292E",
       "icon": "github-copilot",
+      "category": "AI",
+      "is_popular": false
+    },
+    {
+      "id": "MIDJOURNEY",
+      "name": "Midjourney",
+      "color": "#000000",
+      "icon": "midjourney",
+      "category": "AI",
+      "is_popular": false
+    },
+    {
+      "id": "GROK",
+      "name": "Grok",
+      "color": "#000000",
+      "icon": "grok",
+      "category": "AI",
+      "is_popular": false
+    },
+    {
+      "id": "DEEPSEEK",
+      "name": "DeepSeek",
+      "color": "#4D6BFE",
+      "icon": "deepseek",
+      "category": "AI",
+      "is_popular": false
+    },
+    {
+      "id": "KIMI",
+      "name": "Kimi",
+      "color": "#000000",
+      "icon": "kimi",
+      "category": "AI",
+      "is_popular": false
+    },
+    {
+      "id": "KILO_CODE",
+      "name": "Kilo Code",
+      "color": "#7C3AED",
+      "icon": "kilo-code",
       "category": "AI",
       "is_popular": false
     },
