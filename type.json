@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "data": [
     {
       "id": "YOUTUBE_PREMIUM",
@@ -559,6 +559,126 @@
       "color": "#00829A",
       "icon": "ynab",
       "category": "FINANCE",
+      "is_popular": false
+    },
+    {
+      "id": "YOUTUBE_MUSIC",
+      "name": "YouTube Music",
+      "color": "#FF0000",
+      "icon": "youtube-music",
+      "category": "ENTERTAINMENT",
+      "is_popular": true
+    },
+    {
+      "id": "PEACOCK",
+      "name": "Peacock",
+      "color": "#000000",
+      "icon": "peacock",
+      "category": "ENTERTAINMENT",
+      "is_popular": false
+    },
+    {
+      "id": "APPLE_ARCADE",
+      "name": "Apple Arcade",
+      "color": "#000000",
+      "icon": "apple-arcade",
+      "category": "ENTERTAINMENT",
+      "is_popular": false
+    },
+    {
+      "id": "APPLE_ONE",
+      "name": "Apple One",
+      "color": "#000000",
+      "icon": "apple-one",
+      "category": "CLOUD",
+      "is_popular": true
+    },
+    {
+      "id": "TIDAL",
+      "name": "TIDAL",
+      "color": "#000000",
+      "icon": "tidal",
+      "category": "ENTERTAINMENT",
+      "is_popular": false
+    },
+    {
+      "id": "DEEZER",
+      "name": "Deezer",
+      "color": "#A238FF",
+      "icon": "deezer",
+      "category": "ENTERTAINMENT",
+      "is_popular": false
+    },
+    {
+      "id": "PATREON",
+      "name": "Patreon",
+      "color": "#000000",
+      "icon": "patreon",
+      "category": "SOCIAL_MEDIA",
+      "is_popular": false
+    },
+    {
+      "id": "X_PREMIUM",
+      "name": "X Premium",
+      "color": "#000000",
+      "icon": "x-premium",
+      "category": "SOCIAL_MEDIA",
+      "is_popular": true
+    },
+    {
+      "id": "TELEGRAM_PREMIUM",
+      "name": "Telegram Premium",
+      "color": "#24A1DE",
+      "icon": "telegram-premium",
+      "category": "SOCIAL_MEDIA",
+      "is_popular": true
+    },
+    {
+      "id": "SNAPCHAT_PLUS",
+      "name": "Snapchat+",
+      "color": "#FFFC00",
+      "icon": "snapchat-plus",
+      "category": "SOCIAL_MEDIA",
+      "is_popular": false
+    },
+    {
+      "id": "CURSOR",
+      "name": "Cursor",
+      "color": "#000000",
+      "icon": "cursor",
+      "category": "AI",
+      "is_popular": true
+    },
+    {
+      "id": "RAYCAST_PRO",
+      "name": "Raycast Pro",
+      "color": "#FF6363",
+      "icon": "raycast-pro",
+      "category": "PRODUCTIVITY",
+      "is_popular": false
+    },
+    {
+      "id": "SETAPP",
+      "name": "Setapp",
+      "color": "#000000",
+      "icon": "setapp",
+      "category": "PRODUCTIVITY",
+      "is_popular": false
+    },
+    {
+      "id": "PROTON",
+      "name": "Proton Unlimited",
+      "color": "#6D4AFF",
+      "icon": "proton",
+      "category": "UTILITIES",
+      "is_popular": false
+    },
+    {
+      "id": "SURFSHARK",
+      "name": "Surfshark",
+      "color": "#1EBFBF",
+      "icon": "surfshark",
+      "category": "UTILITIES",
       "is_popular": false
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "data": [
     {
       "id": "YOUTUBE_PREMIUM_LITE",
@@ -1211,6 +1211,256 @@
       "is_popular": true,
       "prices": {
         "USD": 30
+      }
+    },
+    {
+      "id": "CLAUDE_MAX",
+      "type_id": "CLAUDE",
+      "plan_name": "Max",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 100.0
+      }
+    },
+    {
+      "id": "PERPLEXITY_PRO",
+      "type_id": "PERPLEXITY",
+      "plan_name": "Pro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 20.0
+      }
+    },
+    {
+      "id": "YOUTUBE_MUSIC_PREMIUM",
+      "type_id": "YOUTUBE_MUSIC",
+      "plan_name": "Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 10.99
+      }
+    },
+    {
+      "id": "YOUTUBE_MUSIC_FAMILY",
+      "type_id": "YOUTUBE_MUSIC",
+      "plan_name": "Family",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 16.99
+      }
+    },
+    {
+      "id": "PEACOCK_PREMIUM",
+      "type_id": "PEACOCK",
+      "plan_name": "Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 7.99
+      }
+    },
+    {
+      "id": "PEACOCK_PREMIUM_PLUS",
+      "type_id": "PEACOCK",
+      "plan_name": "Premium Plus",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 13.99
+      }
+    },
+    {
+      "id": "APPLE_ARCADE_MONTHLY",
+      "type_id": "APPLE_ARCADE",
+      "plan_name": "Monthly",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 6.99
+      }
+    },
+    {
+      "id": "APPLE_ONE_INDIVIDUAL",
+      "type_id": "APPLE_ONE",
+      "plan_name": "Individual",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 19.95
+      }
+    },
+    {
+      "id": "APPLE_ONE_FAMILY",
+      "type_id": "APPLE_ONE",
+      "plan_name": "Family",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 25.95
+      }
+    },
+    {
+      "id": "APPLE_ONE_PREMIER",
+      "type_id": "APPLE_ONE",
+      "plan_name": "Premier",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 37.95
+      }
+    },
+    {
+      "id": "TIDAL_INDIVIDUAL",
+      "type_id": "TIDAL",
+      "plan_name": "Individual",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 10.99
+      }
+    },
+    {
+      "id": "TIDAL_FAMILY",
+      "type_id": "TIDAL",
+      "plan_name": "Family",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 16.99
+      }
+    },
+    {
+      "id": "DEEZER_PREMIUM",
+      "type_id": "DEEZER",
+      "plan_name": "Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 11.99
+      }
+    },
+    {
+      "id": "DEEZER_FAMILY",
+      "type_id": "DEEZER",
+      "plan_name": "Family",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 19.99
+      }
+    },
+    {
+      "id": "X_PREMIUM_BASIC",
+      "type_id": "X_PREMIUM",
+      "plan_name": "Basic",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 3.0
+      }
+    },
+    {
+      "id": "X_PREMIUM_STANDARD",
+      "type_id": "X_PREMIUM",
+      "plan_name": "Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 8.0
+      }
+    },
+    {
+      "id": "X_PREMIUM_PLUS",
+      "type_id": "X_PREMIUM",
+      "plan_name": "Premium+",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 40.0
+      }
+    },
+    {
+      "id": "TELEGRAM_PREMIUM_MONTHLY",
+      "type_id": "TELEGRAM_PREMIUM",
+      "plan_name": "Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 4.99
+      }
+    },
+    {
+      "id": "SNAPCHAT_PLUS_MONTHLY",
+      "type_id": "SNAPCHAT_PLUS",
+      "plan_name": "Plus",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 3.99
+      }
+    },
+    {
+      "id": "CURSOR_PRO",
+      "type_id": "CURSOR",
+      "plan_name": "Pro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 20.0
+      }
+    },
+    {
+      "id": "CURSOR_ULTRA",
+      "type_id": "CURSOR",
+      "plan_name": "Ultra",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 200.0
+      }
+    },
+    {
+      "id": "RAYCAST_PRO_MONTHLY",
+      "type_id": "RAYCAST_PRO",
+      "plan_name": "Pro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 8.0
+      }
+    },
+    {
+      "id": "SETAPP_MONTHLY",
+      "type_id": "SETAPP",
+      "plan_name": "Monthly",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 9.99
+      }
+    },
+    {
+      "id": "PROTON_UNLIMITED",
+      "type_id": "PROTON",
+      "plan_name": "Unlimited",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 12.99
+      }
+    },
+    {
+      "id": "SURFSHARK_STARTER",
+      "type_id": "SURFSHARK",
+      "plan_name": "Starter",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 15.45
       }
     }
   ]
