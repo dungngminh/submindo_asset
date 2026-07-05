@@ -1,192 +1,131 @@
 {
-  "version": 2,
+  "version": 3,
   "data": [
     {
-      "id": "ADOBE_CREATIVE_CLOUD_PHOTOGRAPHY",
-      "type_id": "ADOBE_CREATIVE_CLOUD",
-      "plan_name": "Photography",
+      "id": "YOUTUBE_PREMIUM_LITE",
+      "type_id": "YOUTUBE_PREMIUM",
+      "plan_name": "Premium Lite",
       "billing_cycle": "MONTHLY",
       "is_popular": false,
       "prices": {
-        "USD": 19.99,
-        "EUR": 23.79,
-        "GBP": 19.97,
-        "JPY": 2380,
-        "KRW": 26400,
-        "BRL": 55.0,
-        "AUD": 30.99
+        "USD": 8.99,
+        "CAD": 7.99,
+        "AUD": 8.99
       }
     },
     {
-      "id": "ADOBE_CREATIVE_CLOUD_ALL_APPS",
-      "type_id": "ADOBE_CREATIVE_CLOUD",
-      "plan_name": "All Apps",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 69.99,
-        "EUR": 77.99,
-        "GBP": 66.49,
-        "JPY": 9080,
-        "KRW": 70100,
-        "BRL": 214.0,
-        "CAD": 91.99
-      }
-    },
-    {
-      "id": "AMAZON_PRIME_MONTHLY",
-      "type_id": "AMAZON_PRIME",
-      "plan_name": "Monthly",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 14.99,
-        "GBP": 8.99,
-        "EUR": 8.99,
-        "JPY": 600
-      }
-    },
-    {
-      "id": "AMAZON_PRIME_ANNUAL",
-      "type_id": "AMAZON_PRIME",
-      "plan_name": "Annual",
-      "billing_cycle": "YEARLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 139,
-        "GBP": 95,
-        "EUR": 89.9,
-        "JPY": 5900
-      }
-    },
-    {
-      "id": "APPLE_MUSIC_INDIVIDUAL",
-      "type_id": "APPLE_MUSIC",
+      "id": "YOUTUBE_PREMIUM_INDIVIDUAL",
+      "type_id": "YOUTUBE_PREMIUM",
       "plan_name": "Individual",
       "billing_cycle": "MONTHLY",
       "is_popular": true,
       "prices": {
-        "USD": 10.99,
-        "EUR": 10.99,
-        "GBP": 10.99,
-        "VND": 65000,
-        "JPY": 1080,
-        "KRW": 8900,
-        "INR": 119,
-        "IDR": 55000,
-        "THB": 139,
-        "BRL": 21.9,
-        "AUD": 12.99,
-        "CAD": 10.99
+        "USD": 15.99,
+        "EUR": 14.99,
+        "VND": 79000,
+        "JPY": 1280,
+        "INR": 149,
+        "AUD": 22.99
       }
     },
     {
-      "id": "APPLE_MUSIC_FAMILY",
-      "type_id": "APPLE_MUSIC",
+      "id": "YOUTUBE_PREMIUM_FAMILY",
+      "type_id": "YOUTUBE_PREMIUM",
       "plan_name": "Family",
       "billing_cycle": "MONTHLY",
       "is_popular": false,
       "prices": {
-        "USD": 16.99,
-        "EUR": 16.99,
-        "GBP": 16.99,
-        "VND": 99000,
-        "JPY": 1680,
-        "KRW": 13500,
-        "INR": 179,
-        "IDR": 85000,
-        "THB": 219,
-        "BRL": 34.9,
-        "AUD": 19.99,
-        "CAD": 16.99
+        "USD": 26.99,
+        "EUR": 27.99,
+        "VND": 149000,
+        "JPY": 2280,
+        "INR": 299,
+        "AUD": 39.99
       }
     },
     {
-      "id": "APPLE_TV_PLUS_STANDARD",
-      "type_id": "APPLE_TV_PLUS",
+      "id": "NETFLIX_STANDARD_WITH_ADS",
+      "type_id": "NETFLIX",
+      "plan_name": "Standard with Ads",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 8.99,
+        "JPY": 890,
+        "CAD": 7.99,
+        "AUD": 9.99
+      }
+    },
+    {
+      "id": "NETFLIX_STANDARD",
+      "type_id": "NETFLIX",
       "plan_name": "Standard",
       "billing_cycle": "MONTHLY",
       "is_popular": true,
       "prices": {
-        "USD": 12.99,
-        "GBP": 9.99,
-        "EUR": 9.99
+        "USD": 19.99,
+        "VND": 220000,
+        "INR": 499,
+        "JPY": 1590,
+        "CAD": 18.99,
+        "AUD": 20.99
       }
     },
     {
-      "id": "AT_AND_T_UNLIMITED_PREMIUM",
-      "type_id": "AT_AND_T",
-      "plan_name": "Unlimited Premium",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 90
-      }
-    },
-    {
-      "id": "AUDIBLE_PLUS",
-      "type_id": "AUDIBLE",
-      "plan_name": "Plus",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 7.95
-      }
-    },
-    {
-      "id": "AUDIBLE_STANDARD",
-      "type_id": "AUDIBLE",
-      "plan_name": "Standard",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 8.99
-      }
-    },
-    {
-      "id": "AUDIBLE_PREMIUM_PLUS",
-      "type_id": "AUDIBLE",
-      "plan_name": "Premium Plus",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 14.95,
-        "GBP": 8.99
-      }
-    },
-    {
-      "id": "BUMBLE_PREMIUM",
-      "type_id": "BUMBLE_PREMIUM",
+      "id": "NETFLIX_PREMIUM",
+      "type_id": "NETFLIX",
       "plan_name": "Premium",
       "billing_cycle": "MONTHLY",
-      "is_popular": true,
+      "is_popular": false,
       "prices": {
-        "USD": 39.99,
-        "EUR": 29.99,
-        "GBP": 29.99,
-        "JPY": 3200,
-        "AUD": 52.99,
-        "CAD": 52.99
+        "USD": 26.99,
+        "VND": 260000,
+        "INR": 649,
+        "JPY": 2290,
+        "CAD": 23.99,
+        "AUD": 28.99
       }
     },
     {
-      "id": "CANVA_PRO",
-      "type_id": "CANVA_PRO",
-      "plan_name": "Pro",
+      "id": "GEMINI_PRO",
+      "type_id": "GEMINI",
+      "plan_name": "AI Pro",
       "billing_cycle": "MONTHLY",
       "is_popular": true,
       "prices": {
-        "USD": 15,
-        "EUR": 11.99,
-        "GBP": 13,
-        "VND": 149000,
-        "JPY": 1180,
-        "KRW": 14000,
-        "INR": 499,
-        "IDR": 95000,
-        "THB": 229,
-        "BRL": 34.9,
-        "AUD": 20
+        "USD": 19.99,
+        "EUR": 21.99,
+        "GBP": 18.99,
+        "VND": 489000,
+        "JPY": 2900,
+        "KRW": 29000,
+        "INR": 1950,
+        "IDR": 309000,
+        "THB": 750,
+        "BRL": 96.99,
+        "AUD": 32.99,
+        "CAD": 26.99
+      }
+    },
+    {
+      "id": "GEMINI_ULTRA",
+      "type_id": "GEMINI",
+      "plan_name": "AI Ultra",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 199.99,
+        "EUR": 219.99,
+        "GBP": 189.99,
+        "VND": 5500000,
+        "JPY": 32000,
+        "KRW": 300000,
+        "INR": 19500,
+        "IDR": 3399000,
+        "THB": 7500,
+        "BRL": 999.9,
+        "AUD": 329.99,
+        "CAD": 279.99
       }
     },
     {
@@ -304,240 +243,103 @@
       }
     },
     {
-      "id": "MIDJOURNEY_BASIC",
-      "type_id": "MIDJOURNEY",
-      "plan_name": "Basic",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 10
-      }
-    },
-    {
-      "id": "MIDJOURNEY_STANDARD",
-      "type_id": "MIDJOURNEY",
-      "plan_name": "Standard",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 30
-      }
-    },
-    {
-      "id": "MIDJOURNEY_PRO",
-      "type_id": "MIDJOURNEY",
-      "plan_name": "Pro",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 60
-      }
-    },
-    {
-      "id": "MIDJOURNEY_MEGA",
-      "type_id": "MIDJOURNEY",
-      "plan_name": "Mega",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 120
-      }
-    },
-    {
-      "id": "GROK_SUPERGROK",
-      "type_id": "GROK",
-      "plan_name": "SuperGrok",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 30
-      }
-    },
-    {
-      "id": "DISCORD_NITRO_BASIC",
-      "type_id": "DISCORD_NITRO",
-      "plan_name": "Nitro Basic",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 2.99,
-        "EUR": 2.99,
-        "GBP": 2.99,
-        "JPY": 350,
-        "KRW": 3500,
-        "IDR": 29000,
-        "THB": 79,
-        "VND": 42000,
-        "BRL": 8.9,
-        "AUD": 4.49
-      }
-    },
-    {
-      "id": "DISCORD_NITRO",
-      "type_id": "DISCORD_NITRO",
-      "plan_name": "Nitro",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 9.99,
-        "EUR": 9.99,
-        "GBP": 9.99,
-        "JPY": 1050,
-        "KRW": 9800,
-        "IDR": 80000,
-        "THB": 215,
-        "VND": 113000,
-        "BRL": 24.99,
-        "AUD": 14.99
-      }
-    },
-    {
-      "id": "DISNEY_PLUS_BASIC",
-      "type_id": "DISNEY_PLUS",
-      "plan_name": "Basic (With Ads)",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 11.99,
-        "GBP": 5.99,
-        "EUR": 6.99
-      }
-    },
-    {
-      "id": "DISNEY_PLUS_PREMIUM",
-      "type_id": "DISNEY_PLUS",
-      "plan_name": "Premium",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 18.99,
-        "GBP": 14.99,
-        "EUR": 15.99
-      }
-    },
-    {
-      "id": "DUOLINGO_SUPER",
-      "type_id": "DUOLINGO",
-      "plan_name": "Super",
+      "id": "SPOTIFY_INDIVIDUAL",
+      "type_id": "SPOTIFY",
+      "plan_name": "Individual",
       "billing_cycle": "MONTHLY",
       "is_popular": true,
       "prices": {
         "USD": 12.99,
-        "EUR": 16.49,
-        "GBP": 10.99,
-        "VND": 99000,
-        "JPY": 1990,
-        "INR": 649,
-        "BRL": 14.99,
-        "AUD": 16.99,
-        "CAD": 12.99
+        "EUR": 12.99,
+        "GBP": 12.99,
+        "VND": 65000,
+        "JPY": 1080,
+        "KRW": 11990,
+        "INR": 139,
+        "IDR": 59900,
+        "THB": 149,
+        "BRL": 23.9,
+        "AUD": 15.99,
+        "CAD": 13.99
       }
     },
     {
-      "id": "DUOLINGO_MAX",
-      "type_id": "DUOLINGO",
-      "plan_name": "Max",
+      "id": "SPOTIFY_DUO",
+      "type_id": "SPOTIFY",
+      "plan_name": "Duo",
       "billing_cycle": "MONTHLY",
       "is_popular": false,
       "prices": {
-        "USD": 29.99,
-        "EUR": 29.99,
-        "GBP": 19.99,
-        "JPY": 4490,
-        "KRW": 21000,
-        "BRL": 33.33
+        "USD": 18.99,
+        "EUR": 17.99,
+        "GBP": 17.99,
+        "JPY": 1480,
+        "KRW": 17985,
+        "INR": 179,
+        "THB": 209,
+        "BRL": 31.9,
+        "AUD": 22.99,
+        "CAD": 19.99
       }
     },
     {
-      "id": "EA_PLAY_BASIC",
-      "type_id": "EA_PLAY",
-      "plan_name": "Basic",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 5.99
-      }
-    },
-    {
-      "id": "EA_PLAY_PRO",
-      "type_id": "EA_PLAY",
-      "plan_name": "Pro",
+      "id": "SPOTIFY_FAMILY",
+      "type_id": "SPOTIFY",
+      "plan_name": "Family",
       "billing_cycle": "MONTHLY",
       "is_popular": false,
       "prices": {
-        "USD": 16.99
-      }
-    },
-    {
-      "id": "ESPN_PLUS_SELECT",
-      "type_id": "ESPN_PLUS",
-      "plan_name": "Select",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 12.99
-      }
-    },
-    {
-      "id": "ESPN_PLUS_UNLIMITED",
-      "type_id": "ESPN_PLUS",
-      "plan_name": "Unlimited",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 29.99
-      }
-    },
-    {
-      "id": "FIGMA_PROFESSIONAL",
-      "type_id": "FIGMA_PROFESSIONAL",
-      "plan_name": "Professional",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 20
-      }
-    },
-    {
-      "id": "GEMINI_PRO",
-      "type_id": "GEMINI",
-      "plan_name": "AI Pro",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 19.99,
+        "USD": 21.99,
         "EUR": 21.99,
-        "GBP": 18.99,
-        "VND": 489000,
-        "JPY": 2900,
-        "KRW": 29000,
-        "INR": 1950,
-        "IDR": 309000,
-        "THB": 750,
-        "BRL": 96.99,
-        "AUD": 32.99,
-        "CAD": 26.99
+        "GBP": 21.99,
+        "JPY": 1880,
+        "INR": 229,
+        "THB": 249,
+        "BRL": 40.9,
+        "AUD": 27.99,
+        "CAD": 23.99
       }
     },
     {
-      "id": "GEMINI_ULTRA",
-      "type_id": "GEMINI",
-      "plan_name": "AI Ultra",
+      "id": "APPLE_MUSIC_INDIVIDUAL",
+      "type_id": "APPLE_MUSIC",
+      "plan_name": "Individual",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 10.99,
+        "EUR": 10.99,
+        "GBP": 10.99,
+        "VND": 65000,
+        "JPY": 1080,
+        "KRW": 8900,
+        "INR": 119,
+        "IDR": 55000,
+        "THB": 139,
+        "BRL": 21.9,
+        "AUD": 12.99,
+        "CAD": 10.99
+      }
+    },
+    {
+      "id": "APPLE_MUSIC_FAMILY",
+      "type_id": "APPLE_MUSIC",
+      "plan_name": "Family",
       "billing_cycle": "MONTHLY",
       "is_popular": false,
       "prices": {
-        "USD": 199.99,
-        "EUR": 219.99,
-        "GBP": 189.99,
-        "VND": 5500000,
-        "JPY": 32000,
-        "KRW": 300000,
-        "INR": 19500,
-        "IDR": 3399000,
-        "THB": 7500,
-        "BRL": 999.9,
-        "AUD": 329.99,
-        "CAD": 279.99
+        "USD": 16.99,
+        "EUR": 16.99,
+        "GBP": 16.99,
+        "VND": 99000,
+        "JPY": 1680,
+        "KRW": 13500,
+        "INR": 179,
+        "IDR": 85000,
+        "THB": 219,
+        "BRL": 34.9,
+        "AUD": 19.99,
+        "CAD": 16.99
       }
     },
     {
@@ -580,66 +382,6 @@
         "BRL": 49.99,
         "AUD": 14.99,
         "CAD": 13.99
-      }
-    },
-    {
-      "id": "GRAMMARLY_PREMIUM",
-      "type_id": "GRAMMARLY_PREMIUM",
-      "plan_name": "Premium",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 30
-      }
-    },
-    {
-      "id": "HBO_MAX_BASIC_WITH_ADS",
-      "type_id": "HBO_MAX",
-      "plan_name": "Basic with Ads",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 10.99
-      }
-    },
-    {
-      "id": "HBO_MAX_STANDARD",
-      "type_id": "HBO_MAX",
-      "plan_name": "Standard",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 18.49
-      }
-    },
-    {
-      "id": "HBO_MAX_PREMIUM",
-      "type_id": "HBO_MAX",
-      "plan_name": "Premium",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 22.99
-      }
-    },
-    {
-      "id": "HULU_WITH_ADS",
-      "type_id": "HULU",
-      "plan_name": "With Ads",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 11.99
-      }
-    },
-    {
-      "id": "HULU_NO_ADS",
-      "type_id": "HULU",
-      "plan_name": "No Ads",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 18.99
       }
     },
     {
@@ -748,6 +490,357 @@
       }
     },
     {
+      "id": "AMAZON_PRIME_MONTHLY",
+      "type_id": "AMAZON_PRIME",
+      "plan_name": "Monthly",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 14.99,
+        "GBP": 8.99,
+        "EUR": 8.99,
+        "JPY": 600
+      }
+    },
+    {
+      "id": "AMAZON_PRIME_ANNUAL",
+      "type_id": "AMAZON_PRIME",
+      "plan_name": "Annual",
+      "billing_cycle": "YEARLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 139,
+        "GBP": 95,
+        "EUR": 89.9,
+        "JPY": 5900
+      }
+    },
+    {
+      "id": "DISNEY_PLUS_BASIC",
+      "type_id": "DISNEY_PLUS",
+      "plan_name": "Basic (With Ads)",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 11.99,
+        "GBP": 5.99,
+        "EUR": 6.99
+      }
+    },
+    {
+      "id": "DISNEY_PLUS_PREMIUM",
+      "type_id": "DISNEY_PLUS",
+      "plan_name": "Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 18.99,
+        "GBP": 14.99,
+        "EUR": 15.99
+      }
+    },
+    {
+      "id": "ADOBE_CREATIVE_CLOUD_PHOTOGRAPHY",
+      "type_id": "ADOBE_CREATIVE_CLOUD",
+      "plan_name": "Photography",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 19.99,
+        "EUR": 23.79,
+        "GBP": 19.97,
+        "JPY": 2380,
+        "KRW": 26400,
+        "BRL": 55.0,
+        "AUD": 30.99
+      }
+    },
+    {
+      "id": "ADOBE_CREATIVE_CLOUD_ALL_APPS",
+      "type_id": "ADOBE_CREATIVE_CLOUD",
+      "plan_name": "All Apps",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 69.99,
+        "EUR": 77.99,
+        "GBP": 66.49,
+        "JPY": 9080,
+        "KRW": 70100,
+        "BRL": 214.0,
+        "CAD": 91.99
+      }
+    },
+    {
+      "id": "APPLE_TV_PLUS_STANDARD",
+      "type_id": "APPLE_TV_PLUS",
+      "plan_name": "Standard",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 12.99,
+        "GBP": 9.99,
+        "EUR": 9.99
+      }
+    },
+    {
+      "id": "AT_AND_T_UNLIMITED_PREMIUM",
+      "type_id": "AT_AND_T",
+      "plan_name": "Unlimited Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 90
+      }
+    },
+    {
+      "id": "AUDIBLE_PLUS",
+      "type_id": "AUDIBLE",
+      "plan_name": "Plus",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 7.95
+      }
+    },
+    {
+      "id": "AUDIBLE_STANDARD",
+      "type_id": "AUDIBLE",
+      "plan_name": "Standard",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 8.99
+      }
+    },
+    {
+      "id": "AUDIBLE_PREMIUM_PLUS",
+      "type_id": "AUDIBLE",
+      "plan_name": "Premium Plus",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 14.95,
+        "GBP": 8.99
+      }
+    },
+    {
+      "id": "BUMBLE_PREMIUM",
+      "type_id": "BUMBLE_PREMIUM",
+      "plan_name": "Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 39.99,
+        "EUR": 29.99,
+        "GBP": 29.99,
+        "JPY": 3200,
+        "AUD": 52.99,
+        "CAD": 52.99
+      }
+    },
+    {
+      "id": "CANVA_PRO",
+      "type_id": "CANVA_PRO",
+      "plan_name": "Pro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 15,
+        "EUR": 11.99,
+        "GBP": 13,
+        "VND": 149000,
+        "JPY": 1180,
+        "KRW": 14000,
+        "INR": 499,
+        "IDR": 95000,
+        "THB": 229,
+        "BRL": 34.9,
+        "AUD": 20
+      }
+    },
+    {
+      "id": "DISCORD_NITRO_BASIC",
+      "type_id": "DISCORD_NITRO",
+      "plan_name": "Nitro Basic",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 2.99,
+        "EUR": 2.99,
+        "GBP": 2.99,
+        "JPY": 350,
+        "KRW": 3500,
+        "IDR": 29000,
+        "THB": 79,
+        "VND": 42000,
+        "BRL": 8.9,
+        "AUD": 4.49
+      }
+    },
+    {
+      "id": "DISCORD_NITRO",
+      "type_id": "DISCORD_NITRO",
+      "plan_name": "Nitro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 9.99,
+        "EUR": 9.99,
+        "GBP": 9.99,
+        "JPY": 1050,
+        "KRW": 9800,
+        "IDR": 80000,
+        "THB": 215,
+        "VND": 113000,
+        "BRL": 24.99,
+        "AUD": 14.99
+      }
+    },
+    {
+      "id": "DUOLINGO_SUPER",
+      "type_id": "DUOLINGO",
+      "plan_name": "Super",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 12.99,
+        "EUR": 16.49,
+        "GBP": 10.99,
+        "VND": 99000,
+        "JPY": 1990,
+        "INR": 649,
+        "BRL": 14.99,
+        "AUD": 16.99,
+        "CAD": 12.99
+      }
+    },
+    {
+      "id": "DUOLINGO_MAX",
+      "type_id": "DUOLINGO",
+      "plan_name": "Max",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 29.99,
+        "EUR": 29.99,
+        "GBP": 19.99,
+        "JPY": 4490,
+        "KRW": 21000,
+        "BRL": 33.33
+      }
+    },
+    {
+      "id": "EA_PLAY_BASIC",
+      "type_id": "EA_PLAY",
+      "plan_name": "Basic",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 5.99
+      }
+    },
+    {
+      "id": "EA_PLAY_PRO",
+      "type_id": "EA_PLAY",
+      "plan_name": "Pro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 16.99
+      }
+    },
+    {
+      "id": "ESPN_PLUS_SELECT",
+      "type_id": "ESPN_PLUS",
+      "plan_name": "Select",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 12.99
+      }
+    },
+    {
+      "id": "ESPN_PLUS_UNLIMITED",
+      "type_id": "ESPN_PLUS",
+      "plan_name": "Unlimited",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 29.99
+      }
+    },
+    {
+      "id": "FIGMA_PROFESSIONAL",
+      "type_id": "FIGMA_PROFESSIONAL",
+      "plan_name": "Professional",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 20
+      }
+    },
+    {
+      "id": "GRAMMARLY_PREMIUM",
+      "type_id": "GRAMMARLY_PREMIUM",
+      "plan_name": "Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 30
+      }
+    },
+    {
+      "id": "HBO_MAX_BASIC_WITH_ADS",
+      "type_id": "HBO_MAX",
+      "plan_name": "Basic with Ads",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 10.99
+      }
+    },
+    {
+      "id": "HBO_MAX_STANDARD",
+      "type_id": "HBO_MAX",
+      "plan_name": "Standard",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 18.49
+      }
+    },
+    {
+      "id": "HBO_MAX_PREMIUM",
+      "type_id": "HBO_MAX",
+      "plan_name": "Premium",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 22.99
+      }
+    },
+    {
+      "id": "HULU_WITH_ADS",
+      "type_id": "HULU",
+      "plan_name": "With Ads",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 11.99
+      }
+    },
+    {
+      "id": "HULU_NO_ADS",
+      "type_id": "HULU",
+      "plan_name": "No Ads",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 18.99
+      }
+    },
+    {
       "id": "MYFITNESSPAL_PREMIUM",
       "type_id": "MYFITNESSPAL",
       "plan_name": "Premium",
@@ -757,49 +850,6 @@
         "USD": 19.99,
         "EUR": 9.99,
         "GBP": 9.99
-      }
-    },
-    {
-      "id": "NETFLIX_STANDARD_WITH_ADS",
-      "type_id": "NETFLIX",
-      "plan_name": "Standard with Ads",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 8.99,
-        "JPY": 890,
-        "CAD": 7.99,
-        "AUD": 9.99
-      }
-    },
-    {
-      "id": "NETFLIX_STANDARD",
-      "type_id": "NETFLIX",
-      "plan_name": "Standard",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 19.99,
-        "VND": 220000,
-        "INR": 499,
-        "JPY": 1590,
-        "CAD": 18.99,
-        "AUD": 20.99
-      }
-    },
-    {
-      "id": "NETFLIX_PREMIUM",
-      "type_id": "NETFLIX",
-      "plan_name": "Premium",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 26.99,
-        "VND": 260000,
-        "INR": 649,
-        "JPY": 2290,
-        "CAD": 23.99,
-        "AUD": 28.99
       }
     },
     {
@@ -998,61 +1048,13 @@
       }
     },
     {
-      "id": "SPOTIFY_INDIVIDUAL",
-      "type_id": "SPOTIFY",
-      "plan_name": "Individual",
+      "id": "T_MOBILE_EXPERIENCE_MORE",
+      "type_id": "T_MOBILE",
+      "plan_name": "Experience More",
       "billing_cycle": "MONTHLY",
       "is_popular": true,
       "prices": {
-        "USD": 12.99,
-        "EUR": 12.99,
-        "GBP": 12.99,
-        "VND": 65000,
-        "JPY": 1080,
-        "KRW": 11990,
-        "INR": 139,
-        "IDR": 59900,
-        "THB": 149,
-        "BRL": 23.9,
-        "AUD": 15.99,
-        "CAD": 13.99
-      }
-    },
-    {
-      "id": "SPOTIFY_DUO",
-      "type_id": "SPOTIFY",
-      "plan_name": "Duo",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 18.99,
-        "EUR": 17.99,
-        "GBP": 17.99,
-        "JPY": 1480,
-        "KRW": 17985,
-        "INR": 179,
-        "THB": 209,
-        "BRL": 31.9,
-        "AUD": 22.99,
-        "CAD": 19.99
-      }
-    },
-    {
-      "id": "SPOTIFY_FAMILY",
-      "type_id": "SPOTIFY",
-      "plan_name": "Family",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 21.99,
-        "EUR": 21.99,
-        "GBP": 21.99,
-        "JPY": 1880,
-        "INR": 229,
-        "THB": 249,
-        "BRL": 40.9,
-        "AUD": 27.99,
-        "CAD": 23.99
+        "USD": 85
       }
     },
     {
@@ -1092,16 +1094,6 @@
       "is_popular": true,
       "prices": {
         "USD": 11.99
-      }
-    },
-    {
-      "id": "T_MOBILE_EXPERIENCE_MORE",
-      "type_id": "T_MOBILE",
-      "plan_name": "Experience More",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 85
       }
     },
     {
@@ -1158,48 +1150,6 @@
       }
     },
     {
-      "id": "YOUTUBE_PREMIUM_LITE",
-      "type_id": "YOUTUBE_PREMIUM",
-      "plan_name": "Premium Lite",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 8.99,
-        "CAD": 7.99,
-        "AUD": 8.99
-      }
-    },
-    {
-      "id": "YOUTUBE_PREMIUM_INDIVIDUAL",
-      "type_id": "YOUTUBE_PREMIUM",
-      "plan_name": "Individual",
-      "billing_cycle": "MONTHLY",
-      "is_popular": true,
-      "prices": {
-        "USD": 15.99,
-        "EUR": 14.99,
-        "VND": 79000,
-        "JPY": 1280,
-        "INR": 149,
-        "AUD": 22.99
-      }
-    },
-    {
-      "id": "YOUTUBE_PREMIUM_FAMILY",
-      "type_id": "YOUTUBE_PREMIUM",
-      "plan_name": "Family",
-      "billing_cycle": "MONTHLY",
-      "is_popular": false,
-      "prices": {
-        "USD": 26.99,
-        "EUR": 27.99,
-        "VND": 149000,
-        "JPY": 2280,
-        "INR": 299,
-        "AUD": 39.99
-      }
-    },
-    {
       "id": "ZOOM_PRO",
       "type_id": "ZOOM",
       "plan_name": "Pro",
@@ -1211,6 +1161,56 @@
         "GBP": 11.99,
         "JPY": 2549,
         "INR": 1376
+      }
+    },
+    {
+      "id": "MIDJOURNEY_BASIC",
+      "type_id": "MIDJOURNEY",
+      "plan_name": "Basic",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 10
+      }
+    },
+    {
+      "id": "MIDJOURNEY_STANDARD",
+      "type_id": "MIDJOURNEY",
+      "plan_name": "Standard",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 30
+      }
+    },
+    {
+      "id": "MIDJOURNEY_PRO",
+      "type_id": "MIDJOURNEY",
+      "plan_name": "Pro",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 60
+      }
+    },
+    {
+      "id": "MIDJOURNEY_MEGA",
+      "type_id": "MIDJOURNEY",
+      "plan_name": "Mega",
+      "billing_cycle": "MONTHLY",
+      "is_popular": false,
+      "prices": {
+        "USD": 120
+      }
+    },
+    {
+      "id": "GROK_SUPERGROK",
+      "type_id": "GROK",
+      "plan_name": "SuperGrok",
+      "billing_cycle": "MONTHLY",
+      "is_popular": true,
+      "prices": {
+        "USD": 30
       }
     }
   ]
