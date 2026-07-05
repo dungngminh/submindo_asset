@@ -3,6 +3,15 @@
 Traces every version bump of `type.json` / `template.json` and changes to `icons/`.
 Convention: any data change bumps the file's `version` (monotonically increasing int) and adds an entry here.
 
+## 2026-07-05 (later)
+
+### icons/ quality upgrade (16 files)
+
+Replaced favicon-sourced logos with official App Store artwork (512px source, resized to
+256px, 22% rounded corners, WebP with alpha): claude, perplexity, grok, deepseek, kimi,
+youtube-music, peacock, tidal, deezer, patreon, telegram-premium, snapchat-plus, x-premium,
+raycast-pro, proton, surfshark. Fixes the low-res tidal (48px) and kimi (64px) icons.
+
 ## 2026-07-05
 
 ### type.json v5 (70 → 85 services)
