@@ -1,4 +1,5 @@
 # Submindo Asset
+## Used for Submindo
 
 This is the asset for Submindo project:
 - public/
