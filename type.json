@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 7,
   "data": [
     {
       "id": "YOUTUBE_PREMIUM",
@@ -23,7 +23,8 @@
       "color": "#000000",
       "icon": "gemini",
       "category": "AI",
-      "is_popular": true
+      "is_popular": true,
+      "dark_icon": "gemini-dark"
     },
     {
       "id": "CHATGPT_PLUS",
@@ -119,7 +120,8 @@
       "color": "#000000",
       "icon": "apple-tv-plus",
       "category": "ENTERTAINMENT",
-      "is_popular": true
+      "is_popular": true,
+      "dark_icon": "apple-tv-plus-dark"
     },
     {
       "id": "AT_AND_T",
@@ -247,7 +249,8 @@
       "color": "#000000",
       "icon": "notion-plus",
       "category": "PRODUCTIVITY",
-      "is_popular": true
+      "is_popular": true,
+      "dark_icon": "notion-plus-dark"
     },
     {
       "id": "NYT",
@@ -255,7 +258,8 @@
       "color": "#000000",
       "icon": "nyt",
       "category": "NEWS",
-      "is_popular": true
+      "is_popular": true,
+      "dark_icon": "nyt-dark"
     },
     {
       "id": "PLAYSTATION_PLUS",
@@ -415,7 +419,8 @@
       "color": "#000000",
       "icon": "midjourney",
       "category": "AI",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "midjourney-dark"
     },
     {
       "id": "GROK",
@@ -423,7 +428,8 @@
       "color": "#000000",
       "icon": "grok",
       "category": "AI",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "grok-dark"
     },
     {
       "id": "DEEPSEEK",
@@ -439,12 +445,13 @@
       "color": "#000000",
       "icon": "kimi",
       "category": "AI",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "kimi-dark"
     },
     {
       "id": "KILO_CODE",
       "name": "Kilo Code",
-      "color": "#7C3AED",
+      "color": "#FFCC00",
       "icon": "kilo-code",
       "category": "AI",
       "is_popular": false
@@ -463,7 +470,8 @@
       "color": "#000000",
       "icon": "jetbrains",
       "category": "DEVELOPMENT",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "jetbrains-dark"
     },
     {
       "id": "LASTPASS",
@@ -495,7 +503,8 @@
       "color": "#000000",
       "icon": "medium-member",
       "category": "NEWS",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "medium-member-dark"
     },
     {
       "id": "SKILLSHARE",
@@ -511,7 +520,8 @@
       "color": "#000000",
       "icon": "starlink",
       "category": "TELECOM",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "starlink-dark"
     },
     {
       "id": "STRAVA",
@@ -543,7 +553,8 @@
       "color": "#000000",
       "icon": "vercel",
       "category": "DEVELOPMENT",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "vercel-dark"
     },
     {
       "id": "WSJ",
@@ -551,7 +562,8 @@
       "color": "#000000",
       "icon": "wsj",
       "category": "NEWS",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "wsj-dark"
     },
     {
       "id": "YNAB",
@@ -575,7 +587,8 @@
       "color": "#000000",
       "icon": "peacock",
       "category": "ENTERTAINMENT",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "peacock-dark"
     },
     {
       "id": "APPLE_ARCADE",
@@ -583,7 +596,8 @@
       "color": "#000000",
       "icon": "apple-arcade",
       "category": "ENTERTAINMENT",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "apple-arcade-dark"
     },
     {
       "id": "APPLE_ONE",
@@ -591,7 +605,8 @@
       "color": "#000000",
       "icon": "apple-one",
       "category": "CLOUD",
-      "is_popular": true
+      "is_popular": true,
+      "dark_icon": "apple-one-dark"
     },
     {
       "id": "TIDAL",
@@ -599,7 +614,8 @@
       "color": "#000000",
       "icon": "tidal",
       "category": "ENTERTAINMENT",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "tidal-dark"
     },
     {
       "id": "DEEZER",
@@ -615,7 +631,8 @@
       "color": "#000000",
       "icon": "patreon",
       "category": "SOCIAL_MEDIA",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "patreon-dark"
     },
     {
       "id": "X_PREMIUM",
@@ -623,7 +640,8 @@
       "color": "#000000",
       "icon": "x-premium",
       "category": "SOCIAL_MEDIA",
-      "is_popular": true
+      "is_popular": true,
+      "dark_icon": "x-premium-dark"
     },
     {
       "id": "TELEGRAM_PREMIUM",
@@ -647,7 +665,8 @@
       "color": "#000000",
       "icon": "cursor",
       "category": "AI",
-      "is_popular": true
+      "is_popular": true,
+      "dark_icon": "cursor-dark"
     },
     {
       "id": "RAYCAST_PRO",
@@ -663,7 +682,8 @@
       "color": "#000000",
       "icon": "setapp",
       "category": "PRODUCTIVITY",
-      "is_popular": false
+      "is_popular": false,
+      "dark_icon": "setapp-dark"
     },
     {
       "id": "PROTON",

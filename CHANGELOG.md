@@ -3,6 +3,25 @@
 Traces every version bump of `type.json` / `template.json` and changes to `icons/`.
 Convention: any data change bumps the file's `version` (monotonically increasing int) and adds an entry here.
 
+## 2026-07-16 (later)
+
+### type.json v7 — Kilo Code yellow logo
+
+- Replaced `icons/kilo-code.webp` with a yellow glyph (`#FFCC00`).
+- Updated Kilo Code brand `color` from `#7C3AED` → `#FFCC00`.
+
+## 2026-07-16
+
+### type.json v6 — optional `dark_icon`
+
+- Added optional `dark_icon` slug for brands whose default logo is black / near-black and
+  vanishes on dark UI (app dark mode / True Dark OLED).
+- 20 entries set: gemini, apple-tv-plus, notion-plus, nyt, midjourney, grok, kimi,
+  jetbrains, medium-member, starlink, vercel, wsj, peacock, apple-arcade, apple-one,
+  tidal, patreon, x-premium, cursor, setapp.
+- Added matching `icons/{slug}-dark.webp` files (light-on-transparent variants).
+- App resolves `dark_icon` when the effective theme is dark; missing field keeps `icon`.
+
 ## 2026-07-05 (later)
 
 ### icons/ quality upgrade (16 files)
