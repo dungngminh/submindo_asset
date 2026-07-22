@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Slickdeals fixture</title>
+    <item>
+      <guid>https://slickdeals.net/f/12345678</guid>
+      <title>Netflix Premium: 3 months 50% off &amp; free trial</title>
+      <link>https://slickdeals.net/f/12345678</link>
+      <description><![CDATA[Save 50% on Netflix.]]></description>
+    </item>
+    <item>
+      <guid>98765432</guid>
+      <title>HBO Max streaming deal</title>
+      <link>https://slickdeals.net/f/98765432</link>
+      <description>HBO Max annual plan discount</description>
+    </item>
+    <item>
+      <guid>https://slickdeals.net/f/22222222</guid>
+      <title>Gaming laptop sale</title>
+      <link>https://slickdeals.net/f/22222222</link>
+    </item>
+    <item>
+      <guid>https://slickdeals.net/f/12345678</guid>
+      <title>Duplicate Netflix item</title>
+      <link>https://slickdeals.net/f/12345678</link>
+    </item>
+  </channel>
+</rss>
