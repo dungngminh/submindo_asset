@@ -23,9 +23,25 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
+      - name: Snapshot current promos
+        run: git show HEAD:promos.json > "$RUNNER_TEMP/promos-before.json"
       - run: npm run crawl
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Notify new promo deals
+        if: ${{ !cancelled() && !failure() }}
+        env:
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if git diff --quiet -- promos.json; then
+            echo "No promo changes"
+            exit 0
+          fi
+          node promo/src/notify.mjs \
+            --before "$RUNNER_TEMP/promos-before.json" \
+            --after promos.json \
+            --types type.json
       - name: Commit promo changes to master
         if: ${{ !cancelled() && !failure() }}
         run: |
