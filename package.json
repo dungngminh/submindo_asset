@@ -1,0 +1,17 @@
+{
+  "name": "submindo-promo-pipeline",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test promo/test/*.test.mjs",
+    "crawl": "node promo/src/crawl.mjs",
+    "notify": "node promo/src/notify.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5",
+    "google-auth-library": "^10.5.0"
+  }
+}
