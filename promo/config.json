@@ -1,0 +1,14 @@
+{
+  "feeds": [
+    {
+      "source": "slickdeals",
+      "url": "https://slickdeals.net/newsearch.php?mode=frontpage&rss=1"
+    }
+  ],
+  "aliases": {
+    "hbo-max": ["hbo max", "max streaming"],
+    "apple-tv-plus": ["apple tv+", "apple tv plus"],
+    "youtube-premium": ["youtube premium"],
+    "amazon-prime": ["amazon prime"]
+  }
+}

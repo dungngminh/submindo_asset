@@ -1,0 +1,51 @@
+name: Notify promo subscribers
+
+on:
+  push:
+    branches: [master]
+    paths: [promos.json]
+  workflow_dispatch:
+    inputs:
+      before_sha:
+        required: false
+        type: string
+      after_sha:
+        required: false
+        type: string
+
+concurrency:
+  group: promo-notify-${{ github.event.after || github.event.inputs.after_sha }}
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Extract reviewed before/after files
+        env:
+          BEFORE_SHA: ${{ github.event.before || github.event.inputs.before_sha }}
+          AFTER_SHA: ${{ github.event.after || github.event.inputs.after_sha || github.sha }}
+        run: |
+          if [ -z "$AFTER_SHA" ]; then echo "Missing after SHA"; exit 1; fi
+          git cat-file -e "$AFTER_SHA^{commit}"
+          git show "$AFTER_SHA:promos.json" > "$RUNNER_TEMP/promos-after.json"
+          if [ -z "$BEFORE_SHA" ] || [ "$BEFORE_SHA" = "0000000000000000000000000000000000000000" ]; then
+            printf '{"version":1,"promos":[]}\n' > "$RUNNER_TEMP/promos-before.json"
+          else
+            git cat-file -e "$BEFORE_SHA^{commit}"
+            git show "$BEFORE_SHA:promos.json" > "$RUNNER_TEMP/promos-before.json"
+          fi
+      - name: Send new service topic messages
+        env:
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: node promo/src/notify.mjs --before "$RUNNER_TEMP/promos-before.json" --after "$RUNNER_TEMP/promos-after.json" --types type.json
