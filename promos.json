@@ -1,4 +1,15 @@
 {
-  "version": 1,
-  "promos": []
+  "version": 2,
+  "promos": [
+    {
+      "id": "slickdeals-thread-19793973",
+      "service": "amazon-prime",
+      "title": "Texas Instruments TI-84 Evo Graphing Calculator $80 + Free S&H w/ Prime",
+      "code": null,
+      "discount": null,
+      "url": "https://slickdeals.net/f/19793973-79-99-texas-instruments-ti-84-evo-graphing-calculator-at-woot?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "expires": null,
+      "source": "slickdeals"
+    }
+  ]
 }
