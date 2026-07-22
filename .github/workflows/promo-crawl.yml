@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: promo-crawl
@@ -27,10 +26,8 @@ jobs:
       - run: npm run crawl
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      - name: Create or update review PR
+      - name: Commit promo changes to master
         if: ${{ !cancelled() && !failure() }}
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet -- promos.json; then
             echo "No promo changes"
@@ -38,13 +35,6 @@ jobs:
           fi
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git switch -C automation/promo-deals
           git add promos.json
           git commit -m "chore: update promo deals"
-          git push --force origin automation/promo-deals
-          existing=$(gh pr list --head automation/promo-deals --base master --state open --json number --jq '.[0].number')
-          if [ -n "$existing" ]; then
-            gh pr edit "$existing" --title "chore: update promo deals" --body "Automated RSS/Gemini refresh. Please review before merging."
-          else
-            gh pr create --base master --head automation/promo-deals --title "chore: update promo deals" --body "Automated RSS/Gemini refresh. Please review before merging."
-          fi
+          git push origin HEAD:master
